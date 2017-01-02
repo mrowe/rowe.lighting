@@ -1,3 +1,110 @@
 languageCode = "en-us"
 title = "Michael Rowe - Lighting design"
 baseurl = "http://michael.rowe.lighting/"
+
+theme = "hugo-universal-theme"
+
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+# Define the number of posts per page
+paginate = 10
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "Michael Rowe"
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "marsala"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "michael@rowe.lighting"
+
+    about_us = "<p>I am able to provide lighting design and consulting services for community and school theatre productions. Please drop me a line if you have any questions.</p>"
+    copyright = "Copyright (c) 1986-2017 Michael Rowe; all rights reserved."
+    date_format = "2006-01-02"
+    logo = "img/logo.png"
+    address = """
+      <p>
+        <br>PO Box 4244
+        <br>Briar Hill, VIC 3088
+        <br><strong>Australia</strong>
+        <br>
+        <br>Phone: +61 (0) 412 477 661
+        <br>
+        <br>Email: <a href="mailto:michael@rowe.lighting">michael@rowe.lighting</a>
+      </p>
+      """
+    latitude = "-37.971237"
+    longitude = "144.4926947"
+
+[Permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+[[params.menu]]
+    name = "Portfolio"
+    url  = "/portfolio/"
+    weight = 2
+
+[[params.menu]]
+    name = "About"
+    url  = "/about"
+    weight = 3
+
+[[params.menu]]
+    name = "Current projects"
+    url  = "/current-projects/"
+    weight = 4
+
+[[params.menu]]
+    name = "Résumé"
+    url  = "/resume"
+    weight = 5
+
+[[params.menu]]
+    name = "Contact"
+    url  = "/contact"
+    weight = 6
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carousel]
+    enable = true
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+
+[params.features]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.testimonials]
+    enable = true
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+
+[params.recent_posts]
+    enable = true
+    title = "From our blog"
+    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
