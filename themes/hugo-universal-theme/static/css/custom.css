@@ -47,6 +47,18 @@
 .home-carousel p {
     font-size: 14px;
 }
+
+section {
+    margin-bottom: 0px;
+}
+
+a {
+    color: #cccccc;
+}
+
+a:hover {
+    color: #cccccc;
+}
  
 #copyright {
     font-size: 66%;
