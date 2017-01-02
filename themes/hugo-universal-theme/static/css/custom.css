@@ -8,3 +8,37 @@
 .box-simple {
   min-height: 230px;
 }
+
+.navbar-brand {
+    padding-top: 0px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 30px;
+}
+
+.navbar ul.nav > li > a {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.home-carousel {
+    background: none;
+}
+
+.home-carousel .dark-mask {
+    background: #000000;
+}
+
+.home-carousel h2 {
+    font-size: 24px;
+}
+
+.home-carousel p {
+    font-size: 14px;
+}
+ 
+#copyright {
+    font-size: 66%;
+    padding: 12px 0;
+}
