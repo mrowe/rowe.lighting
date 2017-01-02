@@ -20,6 +20,16 @@
 .navbar ul.nav > li > a {
     text-transform: capitalize;
     text-decoration: none;
+    font-weight: normal;
+}
+
+.navbar ul.nav > li > a:hover {
+    border-top: solid 5px transparent;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: transparent;
 }
 
 .home-carousel {
