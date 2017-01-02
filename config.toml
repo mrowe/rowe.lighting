@@ -47,8 +47,8 @@ paginate = 10
         <br>Email: <a href="mailto:michael@rowe.lighting">michael@rowe.lighting</a>
       </p>
       """
-    latitude = "-37.971237"
-    longitude = "144.4926947"
+    latitude = "-37.8137"
+    longitude = "144.9634"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
