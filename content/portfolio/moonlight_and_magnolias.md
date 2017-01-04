@@ -1,11 +1,9 @@
 +++
 date = "2017-01-02T09:23:05+11:00"
-title = "moonlight_and_magnolias"
+title = "Moonlight and Magnolias"
 draft = true
 
 +++
-
-# Moonlight and Magnolias
 
 Heidelberg Theatre Company, February 2016
 

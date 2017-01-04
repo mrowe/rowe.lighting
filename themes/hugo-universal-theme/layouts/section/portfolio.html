@@ -38,7 +38,7 @@ FNORDS
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="{{ .Permalink }}">{{ humanize .Title }}</a></h2>
+                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           {{ if isset .Params "author" }}
