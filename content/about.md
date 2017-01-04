@@ -5,6 +5,8 @@ draft = true
 
 +++
 
+<img src="/img/me.jpeg" alt="Michael Rowe" style="float: left; margin: 0px 24px 32px 0px;"/>
+
 # About me
 
 I have been involved in theatre and stage production since a very
@@ -23,20 +25,9 @@ tours.
 After a few years break to raise a family, I am now rekindling my love
 of theatre and lighting.
 
----
+Please find my contact details below, or use the [contact form][] if
+you'd like to get in touch.
 
-I am able to provide lighting design and consulting services for
-community and school theatre productions.
+[contact form]: /contact/
 
-Please drop me a line if you have any questions.
-
-## Contact Info
-
-    PO Box 4244
-    Briar Hill, VIC 3088
-    Australia
-
-    Phone: +61 (0) 412 477 661
-
-    Email: michael@rowe.lighting
 
