@@ -52,11 +52,11 @@ section {
     margin-bottom: 0px;
 }
 
-a {
+#footer a {
     color: #cccccc;
 }
 
-a:hover {
+#footer a:hover {
     color: #cccccc;
 }
  
