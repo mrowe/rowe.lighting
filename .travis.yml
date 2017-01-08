@@ -4,7 +4,7 @@ script:
   - hugo
   - python --version
   - sudo pip install s3cmd
-  - s3cmd sync --delete-removed -P -M -r public/ s3://rowe.lighting/
+  - s3cmd --region=ap-southeast-2 sync --delete-removed -P -M -r public/ s3://rowe.lighting/
 notifications:
     email:
         on_failure: always
