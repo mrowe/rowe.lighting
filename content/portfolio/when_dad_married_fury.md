@@ -7,8 +7,12 @@ draft = true
 
 Heidelberg Theatre Company, February 2015
 
- * _Director_: Maureen McInerney
- * _Designer_: Matthew McLaughlin
- * _Lighting_: Michael Rowe
+ * __Director__: Maureen McInerney
+ * __Designer__: Matthew McLaughlin
+ * __Lighting__: Michael Rowe
 
 <!--more-->
+
+
+
+_Images (c) 2015 David Belton www.scriptandstage.com and (c) 2015 Michael Rowe; All rights reserved._

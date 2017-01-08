@@ -7,9 +7,12 @@ draft = true
 
 Heidelberg Theatre Company, February 2016
 
- * _Director_: Bruce Akers
- * _Designer_: George Tranter
- * _Lighting_: Michael Rowe
+ * __Director__: Bruce Akers
+ * __Designer__: George Tranter
+ * __Lighting__: Michael Rowe
 
 <!--more-->
  
+
+
+_Images (c) 2015 David Belton www.scriptandstage.com and (c) 2015 Michael Rowe; All rights reserved._
