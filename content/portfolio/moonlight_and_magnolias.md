@@ -15,4 +15,4 @@ Heidelberg Theatre Company, February 2016
  
 
 
-_Images (c) 2015 David Belton www.scriptandstage.com and (c) 2015 Michael Rowe; All rights reserved._
+_Images (c) 2016 David Belton www.scriptandstage.com and (c) 2016 Michael Rowe; All rights reserved._
