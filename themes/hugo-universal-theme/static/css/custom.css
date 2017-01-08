@@ -52,6 +52,12 @@ section {
     margin-bottom: 0px;
 }
 
+#content.portfolio {
+    margin-top: -40px;
+    padding-top: 20px;
+    background-color: black;
+}
+
 #blog-post img {
     float: left;
     margin: 0px 12px 12px 0px;
