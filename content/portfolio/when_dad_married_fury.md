@@ -1,6 +1,7 @@
 +++
 date = "2017-01-02T09:23:27+11:00"
 title = "When Dad Married Fury"
+banner = "media/when-dad-married-fury/david-belton-1.jpg"
 draft = true
 
 +++
