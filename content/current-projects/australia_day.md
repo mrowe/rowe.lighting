@@ -2,8 +2,6 @@
 date = "2017-01-02T09:18:28+11:00"
 title = "Australia Day"
 banner = "/posters/1aud.jpg"
-draft = true
-
 +++
 
 I am currently working on [Heidelberg Theatre Company][]'s first

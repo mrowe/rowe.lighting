@@ -1,8 +1,6 @@
 +++
 date = "2017-01-02T09:16:00+11:00"
 title = "About"
-draft = true
-
 +++
 
 <img src="/img/me.jpeg" alt="Michael Rowe" style="float: left; margin: 0px 24px 32px 0px;"/>
