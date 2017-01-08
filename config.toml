@@ -50,12 +50,6 @@ paginate = 10
     url  = "/contact"
     weight = 6
 
-# Enable and disable widgets for the right sidebar
-# [params.widgets]
-#     categories = true
-#     tags = true
-#     search = true
-
 [params.carousel]
     enable = true
     # All carousel items are defined in their own files. You can find example items
