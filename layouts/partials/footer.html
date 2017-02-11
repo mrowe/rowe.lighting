@@ -1,34 +1,28 @@
 <footer id="footer">
     <div class="container">
 
-        {{ if isset .Site.Params "about_us" }}
         <div class="col-md-4 col-sm-6">
-            <h4>About us</h4>
+            <h4>About me</h4>
 
-            {{ .Site.Params.about_us | safeHTML }}
+            <p>I am able to provide lighting design and consulting
+            services for community and school theatre productions.
+            Please <a href="/contact">drop me a line</a> if you have
+            any questions.</p>
 
             <hr class="hidden-md hidden-lg hidden-sm">
 
         </div>
         <!-- /.col-md-4 -->
-        {{ end }}
 
         <div class="col-md-4 col-sm-6">
+        <!--
 
-            {{ if isset .Site.Params "recent_posts" }} {{ if .Site.Params.recent_posts.enable }} 
-            <h4>Recent posts</h4>
+            <h4>Current projects</h4>
 
             <div class="blog-entries">
-                {{ range first 3 (where .Site.Pages "Type" "blog") }}
+                {{ range first 3 (where .Site.Pages "Type" "current-projects") }}
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
-                        <a href="{{ .Permalink }}">
-                          {{ if isset .Params "banner" }}
-                            <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
-                          {{ else }}
-                            <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
-                          {{ end }}
-                        </a>
                     </div>
                     <div class="name same-height-always">
                         <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
@@ -38,25 +32,29 @@
             </div>
 
             <hr class="hidden-md hidden-lg">
-            {{ end }} {{ end }}
 
+        -->
         </div>
         <!-- /.col-md-4 -->
 
-        {{ if isset .Site.Params "address" }}
         <div class="col-md-4 col-sm-6">
 
             <h4>Contact</h4>
 
-            {{ .Site.Params.address | safeHTML }}
-
-            <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
+            <p>
+              PO Box 4244
+              <br>Briar Hill, VIC 3088
+              <br>Australia
+              <br>
+              <br>Phone: +61 (0) 412 477 661
+              <br>
+              <br>Email: <a href="mailto:michael@rowe.lighting">michael@rowe.lighting</a>
+            </p>
 
             <hr class="hidden-md hidden-lg hidden-sm">
 
         </div>
         <!-- /.col-md-4 -->
-        {{ end }}
 
     </div>
     <!-- /.container -->
