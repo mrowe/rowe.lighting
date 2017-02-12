@@ -72,6 +72,10 @@ section {
     margin: 0px 12px 12px 0px;
 }
 
+.contact-form button {
+    margin-bottom: 20px;
+}
+
 #footer a {
     color: #cccccc;
 }

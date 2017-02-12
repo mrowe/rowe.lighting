@@ -19,8 +19,8 @@ paginate = 10
     copyright = "Copyright (c) 1986-2017 Michael Rowe except where noted. All rights reserved."
     date_format = "2006-01-02"
     logo = "img/logo.png"
-    latitude = "-37.8137"
-    longitude = "144.9634"
+    # latitude = "-37.8137"
+    # longitude = "144.9634"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
