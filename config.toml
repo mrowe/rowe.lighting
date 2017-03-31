@@ -6,7 +6,7 @@ baseurl = "http://rowe.lighting.s3-website-ap-southeast-2.amazonaws.com/"
 theme = "hugo-universal-theme"
 
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-6154615-9"
 
 # Define the number of posts per page
 paginate = 10
