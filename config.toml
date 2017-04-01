@@ -1,7 +1,6 @@
 languageCode = "en-us"
 title = "Michael Rowe - Lighting design"
-# baseurl = "http://michael.rowe.lighting/"
-baseurl = "http://rowe.lighting.s3-website-ap-southeast-2.amazonaws.com/"
+baseurl = "http://rowe.lighting/"
 
 theme = "hugo-universal-theme"
 
