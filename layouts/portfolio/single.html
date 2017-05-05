@@ -28,13 +28,13 @@
 
                         <div id="post-content">
 
-                          {{ .Content }}
-
                           {{- $path := .Params.image_dir -}}
                           {{- $url := replace $path "static" "" -}}
                           {{- range readDir $path }}
                             <img src="{{ (printf "%s%s" $url .Name) }}" class="img-responsive" alt="{{ .Name }}"/>
                           {{- end }}
+
+                          {{ .Content }}
 
                         </div>
                         <!-- /#post-content -->
