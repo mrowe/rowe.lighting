@@ -29,6 +29,7 @@ This Hugo theme was ported from [Bootstrapious](http://bootstrapious.com/p/unive
     * [See more](#see-more)
     * [Clients](#clients)
     * [Recent posts](#recent-posts)
+    * [Meta tags](#meta-tags)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
@@ -68,6 +69,14 @@ After installing the Universal theme successfully, we recommend you to take a lo
 
 First, let's take a look at the [config.toml](//github.com/devcows/hugo-universal-theme/tree/master/exampleSite/config.toml). It will be useful to learn how to customize your site. Feel free to play around with the settings.
 
+
+### Language
+
+Available translations are in the `/i18n` directory. You can configure the language modifying the following key.
+
+```toml
+defaultContentLanguage = "en"
+```
 
 ### Style
 
@@ -115,13 +124,14 @@ id = "contact"
 +++
 ```
 
-You can optionally add the google maps widget defining latitude and longitude in the section `params` at `config.toml`:
+You can optionally add the google maps widget defining latitude and longitude in the section `params` at `config.toml`. On pin click  opens Google Maps directions with the coordinates. Additionally you can define direction if you want to have a different target set for directions or the google maps entry of your company.:
 
 ```yaml
 [params]
     ...
     latitude = "-12.043333"
     longitude = "-77.028333"
+    direction = "Desamparados Station, Distrito de Lima 15001, Peru"
 ```
 
 Since this Hugo sites are static, the contact form uses [Formspree](https://formspree.io/) as a proxy. The form makes a POST request to their servers to send the actual email. Visitors can send up to a 1000 emails each month for free.
@@ -129,6 +139,7 @@ Since this Hugo sites are static, the contact form uses [Formspree](https://form
 To enable the form in the contact page, just type your Formspree email in the `config.toml` file.
 
 ```yaml
+[params]
 email = "your@email.com"
 ```
 
@@ -342,6 +353,37 @@ You can enable it in the configuration file.
     title = "From our blog"
     subtitle = "Pellen
 ```
+
+
+#### Meta tags
+
+`Description` and `Keywords` meta tags are available and can be customized.
+You can set default values for all pages in the `config.toml` file as below.
+
+```toml
+[params]
+    defaultKeywords = ["devcows", "hugo", "go"]
+    defaultDescription = "Site template made by Devcows using Hugo"
+```
+
+The result in HTML will be the following.
+
+```html
+<meta name="keywords" content="devcows, hugo, go">
+<meta name="description" content="Site template made by Devcows using Hugo">
+```
+
+You can also override the default values from the `config.toml` by setting the `description` and `keywords` in the individual pages meta data.
+See the `faq.md` file in the `exampleSite` directory for an example.
+
+```yaml
++++
+title = "FAQ"
+description = "Frequently asked questions"
+keywords = ["FAQ","How do I","questions","what if"]
++++
+```
+
 
 ## Usage
 
