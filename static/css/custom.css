@@ -68,7 +68,7 @@ section {
 }
 
 #blog-post img {
-    float: left;
+    /* float: left; */
     margin: 0px 12px 12px 0px;
 }
 
