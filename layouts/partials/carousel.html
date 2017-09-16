@@ -12,6 +12,9 @@
                         <div class="col-sm-5 right">
                             <h1>{{ .title }}</h1>
                             {{ .description | safeHTML }}
+                            {{ if .quote }}
+                              <p>"{{ .quote }}"</p>
+                            {{ end }}
                         </div>
                         <div class="col-sm-7">
                             <img class="img-responsive" src="{{ .image }}" alt="{{ .copyright }}"/>

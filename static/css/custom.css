@@ -55,6 +55,7 @@
 
 .home-carousel p {
     font-size: 14px;
+    margin-top: 4em;
 }
 
 section {
@@ -83,7 +84,7 @@ section {
 #footer a:hover {
     color: #cccccc;
 }
- 
+
 #copyright {
     font-size: 66%;
     padding: 12px 0;
