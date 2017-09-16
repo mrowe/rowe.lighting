@@ -8,6 +8,10 @@ title = "Résumé"
 
 ## Lighting design
 
+### Tangled Web Theatre Productions
+
+ * _[The Mercy Seat][]_, September 2017, Gasworks Studio
+
 ### Heidelberg Theatre Company
 
  * _[Australia Day][]_, February 2017, Heidelberg Theatre Company
@@ -60,6 +64,7 @@ title = "Résumé"
  * _Phantom of the Opera_ (Cameron Macintosh), Princes Theatre, Melbourne
  * Various, Active Lighting (hire and production company), Melbourne
 
+[The Mercy Seat]: /portfolio/the-mercy-seat/
 [Australia Day]: /portfolio/australia_day/
 [Moonlight and Magnolias]: /portfolio/moonlight_and_magnolias/
 [When Dad Married Fury]: /portfolio/when_dad_married_fury/
