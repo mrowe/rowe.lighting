@@ -44,11 +44,6 @@ paginate = 10
     url  = "/resume"
     weight = 5
 
-[[params.menu]]
-    name = "Contact"
-    url  = "/contact"
-    weight = 6
-
 [params.carousel]
     enable = true
     # All carousel items are defined in their own files. You can find example items

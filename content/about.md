@@ -23,9 +23,4 @@ tours.
 After a few years break to raise a family, I am now rekindling my love
 of theatre and lighting.
 
-Please find my contact details below, or use the [contact form][] if
-you'd like to get in touch.
-
-[contact form]: /contact/
-
-
+Please find my contact details below.
