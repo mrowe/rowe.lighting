@@ -8,6 +8,12 @@ title = "Résumé"
 
 ## Lighting design
 
+
+### redfox3 Theatre Company
+
+ * _[God of Carnage][]_, September 2017, Yarra Valley tour
+
+
 ### Tangled Web Theatre Productions
 
  * _[The Mercy Seat][]_, September 2017, Gasworks Studio
@@ -64,6 +70,7 @@ title = "Résumé"
  * _Phantom of the Opera_ (Cameron Macintosh), Princes Theatre, Melbourne
  * Various, Active Lighting (hire and production company), Melbourne
 
+[God of Carnage]: /portfolio/god-of-carnage/
 [The Mercy Seat]: /portfolio/the-mercy-seat/
 [Australia Day]: /portfolio/australia_day/
 [Moonlight and Magnolias]: /portfolio/moonlight_and_magnolias/
