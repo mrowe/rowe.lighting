@@ -3,7 +3,7 @@ date = "2017-01-02T09:16:00+11:00"
 title = "About"
 +++
 
-<img src="/img/me.jpg" alt="Michael Rowe" style="float: left; margin: 0px 24px 32px 0px;"/>
+<img src="/img/me.jpg" alt="Michael Rowe" class="img-responsive headshot"/>
 
 # About me
 
