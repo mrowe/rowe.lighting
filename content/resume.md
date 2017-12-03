@@ -20,6 +20,7 @@ title = "Résumé"
 
 ### Heidelberg Theatre Company
 
+ * _[Blood Brothers][]_, November 2017, Heidelberg Theatre Company
  * _[Australia Day][]_, February 2017, Heidelberg Theatre Company
  * _[Moonlight and Magnolias][]_, February 2016, Heidelberg Theatre Company
  * _[When Dad Married Fury][]_, February 2015, Heidelberg Theatre Company
@@ -70,6 +71,7 @@ title = "Résumé"
  * _Phantom of the Opera_ (Cameron Macintosh), Princes Theatre, Melbourne
  * Various, Active Lighting (hire and production company), Melbourne
 
+[Blood Brothers]: /portfolio/blood-brothers/
 [God of Carnage]: /portfolio/god-of-carnage/
 [The Mercy Seat]: /portfolio/the-mercy-seat/
 [Australia Day]: /portfolio/australia_day/
