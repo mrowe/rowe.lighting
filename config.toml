@@ -1,19 +1,15 @@
-languageCode = "en-us"
-title = "Michael Rowe - Lighting design"
 baseurl = "//rowe.lighting"
+title = "Michael Rowe - Lighting design"
+languageCode = "en-us"
 
-theme = "hugo-universal-theme"
+theme = "hugo-strata-theme"
 
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-6154615-9"
 
-# Define the number of posts per page
-paginate = 10
-
 [params]
-    style = "default"
+    name = "Michael Rowe"
     description = "Michael Rowe - stage lighting design"
-    author = "Michael Rowe"
     email = "michael@rowe.lighting"
 
     copyright = "Copyright (c) 1986-2018 Michael Rowe except where noted. All rights reserved."
@@ -22,40 +18,102 @@ paginate = 10
     # latitude = "-37.8137"
     # longitude = "144.9634"
 
-[Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
 
-[[params.menu]]
-    name = "Portfolio"
-    url  = "/portfolio/"
-    weight = 2
+	[params.about]
+		hide  = false
+		title = "Michael Rowe &mdash; lighting design"
+		content = ""
 
-[[params.menu]]
+    [params.contact]
+	    hide  = true
+    	title = "Get In Touch"
+    	content = "PO Box 4244 Briar Hill, VIC 3088 Australia"
+    	address = [
+    		"PO Box 4244",
+			"Briar Hill, VIC 3088",
+			"Australia"
+		]
+    	phone = "+61 (0) 412 477 661"
+    
+		[params.contact.form]
+			name = "Name"
+			email = "Email"
+			message = "Message"
+			submit = "Send message"
+
+
+    [params.sidebar]
+        avatar = "me.jpg"
+        bio = "lighting design and consulting services for professional, community, and school theatre productions"
+        facebook = "michael.rowe.lighting"
+        copyright = [
+            "&copy; 1986-2018 Michael Rowe except where noted. All rights reserved.",
+            "Design: [HTML5 UP](//html5up.net)",
+            "Images: Michael Rowe, David Belton, Dave Swann, Justin Stephens, Janna Hagit Pechersky"
+        ]
+
+    [params.rss]
+        hide = true
+
+    [params.recentposts]
+		hide  = true
+
+	[params.portfolio]
+		hide  = false
+		title = "Recent Work"
+
+		[[params.portfolio.gallery]]
+			image = "../media/blood-brothers/blood-brothers-1.jpg"
+			thumb = "../media/blood-brothers/blood-brothers-1.jpg"
+			title = "Blood Brothers"
+			description = "**Heidelberg Theatre Company**, November 2017. *Director* Bruce Akers. *Designer* Bruce Akers, Marie Mackrell."
+		[[params.portfolio.gallery]]
+			image = "../media/blood-brothers/blood-brothers-8.jpg"
+			thumb = "../media/blood-brothers/blood-brothers-8.jpg"
+			title = "Blood Brothers"
+			description = "**Heidelberg Theatre Company**, November 2017. *Director* Bruce Akers. *Designer* Bruce Akers, Marie Mackrell."
+
+		[[params.portfolio.gallery]]
+			image = "../media/god-of-carnage/IMG_0052.jpg"
+			thumb = "../media/god-of-carnage/IMG_0052.jpg"
+			title = "God of Carnage"
+			description = "**redfox3 Theatre Company**, September 2017. *The Memo Healesville*. *Director* Justin Stephens. *Designer* Justin Stephens."
+
+		[[params.portfolio.gallery]]
+			image = "../media/the-mercy-seat/the-mercy-seat-DR90.jpg"
+			thumb = "../media/the-mercy-seat/the-mercy-seat-DR90.jpg"
+			title = "The Mercy Seat"
+			description = "**Tangled Web Theatre Productions**, September 2017. *Gasworks Studio*. *Director* Natasha Boyd. *Designer* Natasha Boyd."
+
+		[[params.portfolio.gallery]]
+			image = "../media/australia-day/david-belton-2.jpg"
+			thumb = "../media/australia-day/david-belton-2.jpg"
+			title = "Australia Day"
+			description = "**Heidelberg Theatre Company**, March 2017. *Director* Joan Moriarty. *Designer* Marie Mackrell, Mal Cother."
+
+		[[params.portfolio.gallery]]
+			image = "../media/moonlight-and-magnolias/2.jpg"
+			thumb = "../media/moonlight-and-magnolias/2.jpg"
+			title = "Moonlight and Magnolias"
+			description = "**Heidelberg Theatre Company**, March 2016. *Director* Bruce Akers. *Designer* George Tranter."
+		[[params.portfolio.gallery]]
+			image = "../media/moonlight-and-magnolias/david-belton-3.jpg"
+			thumb = "../media/moonlight-and-magnolias/david-belton-3.jpg"
+			title = "Moonlight and Magnolias"
+			description = "**Heidelberg Theatre Company**, March 2016. *Director* Bruce Akers. *Designer* George Tranter."
+
+
+[[menu.main]]
     name = "About"
     url  = "/about"
     weight = 3
 
-[[params.menu]]
-    name = "Current projects"
-    url  = "/current-projects/"
-    weight = 4
-
-[[params.menu]]
+[[menu.main]]
     name = "Résumé"
     url  = "/resume"
     weight = 5
 
-[params.carousel]
-    enable = true
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more informtion take a look at the README.
-
-[params.features]
-    enable = false
-
-[params.testimonials]
-    enable = false
-
-[params.recent_posts]
-    enable = false
+[[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 7

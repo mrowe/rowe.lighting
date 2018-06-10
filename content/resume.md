@@ -1,13 +1,6 @@
-+++
-date = "2017-01-02T09:16:00+11:00"
-title = "Résumé"
-+++
-
 # Résumé
 
-
 ## Lighting design
-
 
 ### redfox3 Theatre Company
 

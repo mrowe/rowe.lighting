@@ -3,7 +3,7 @@ date = "2017-01-02T09:16:00+11:00"
 title = "About"
 +++
 
-<img src="/img/me.jpg" alt="Michael Rowe" class="img-responsive headshot"/>
+<img src="/images/me.jpg" alt="Michael Rowe"/>
 
 # About me
 
@@ -22,5 +22,3 @@ tours.
 
 After a few years break to raise a family, I am now rekindling my love
 of theatre and lighting.
-
-Please find my contact details below.
