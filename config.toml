@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Michael Rowe - Lighting design"
-baseurl = "//rowe.lighting/"
+baseurl = "//rowe.lighting"
 
 theme = "hugo-universal-theme"
 
