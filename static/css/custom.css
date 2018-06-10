@@ -1,0 +1,17 @@
+body {
+    background-color: #111111;
+}
+#header {
+    background-color: #111111;
+}
+#main {
+    background-color: #111111;
+    padding-top: 3em;
+}
+
+#main > section {
+    margin-top: 2em;
+}
+#main > section > h2 {
+    margin-bottom: 2em;
+}
