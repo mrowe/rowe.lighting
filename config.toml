@@ -18,7 +18,6 @@ googleAnalytics = "UA-6154615-9"
     # latitude = "-37.8137"
     # longitude = "144.9634"
 
-
 	[params.about]
 		hide  = false
 		title = "Michael Rowe &mdash; lighting design"
@@ -83,7 +82,13 @@ googleAnalytics = "UA-6154615-9"
 			image = "../media/the-mercy-seat/the-mercy-seat-DR90.jpg"
 			thumb = "../media/the-mercy-seat/the-mercy-seat-DR90.jpg"
 			title = "The Mercy Seat"
-			description = "**Tangled Web Theatre Productions**, September 2017. *Gasworks Studio*. *Director* Natasha Boyd. *Designer* Natasha Boyd."
+			description = """
+**Tangled Web Theatre Productions**, September 2017. *Gasworks Studio*. *Director* Natasha Boyd. *Designer* Natasha Boyd. 
+
+&nbsp;
+
+> Astute lighting subtly highlights the changing emotional landscape.
+"""
 
 		[[params.portfolio.gallery]]
 			image = "../media/australia-day/david-belton-2.jpg"
@@ -95,12 +100,20 @@ googleAnalytics = "UA-6154615-9"
 			image = "../media/moonlight-and-magnolias/2.jpg"
 			thumb = "../media/moonlight-and-magnolias/2.jpg"
 			title = "Moonlight and Magnolias"
-			description = "**Heidelberg Theatre Company**, March 2016. *Director* Bruce Akers. *Designer* George Tranter."
+			description = """
+**Heidelberg Theatre Company**, March 2016. *Director* Bruce Akers. *Designer* George Tranter.
+"""
 		[[params.portfolio.gallery]]
 			image = "../media/moonlight-and-magnolias/david-belton-3.jpg"
 			thumb = "../media/moonlight-and-magnolias/david-belton-3.jpg"
 			title = "Moonlight and Magnolias"
-			description = "**Heidelberg Theatre Company**, March 2016. *Director* Bruce Akers. *Designer* George Tranter."
+			description = """
+**Heidelberg Theatre Company**, March 2016. *Director* Bruce Akers. *Designer* George Tranter.
+
+&nbsp;
+
+> Particular mention must be made of Michael Rowe’s atmospheric lighting design.
+"""
 
 
 [[menu.main]]
