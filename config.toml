@@ -26,21 +26,6 @@ googleAnalytics = "UA-6154615-9"
 
     [params.contact]
 	    hide  = true
-    	title = "Get In Touch"
-    	content = "PO Box 4244 Briar Hill, VIC 3088 Australia"
-    	address = [
-    		"PO Box 4244",
-			"Briar Hill, VIC 3088",
-			"Australia"
-		]
-    	phone = "+61 (0) 412 477 661"
-    
-		[params.contact.form]
-			name = "Name"
-			email = "Email"
-			message = "Message"
-			submit = "Send message"
-
 
     [params.sidebar]
         avatar = "me.jpg"
