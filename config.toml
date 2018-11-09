@@ -1,8 +1,9 @@
 baseurl = "//rowe.lighting/"
 title = "Michael Rowe - Lighting design"
-languageCode = "en-us"
+languageCode = "en-au"
 
-theme = "hugo-strata-theme"
+theme = "strata"
+
 
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-6154615-9"
