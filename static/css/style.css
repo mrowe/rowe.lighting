@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline
+}
+
+html {
+  line-height: 1.1em;
+}
+
+ol, ul {
+  list-style: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle
+}
+
+q, blockquote {
+  quotes: none
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none
+}
+
+a img {
+  border: none
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+html {
+  line-height: 1.6em;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  background: #111111;
+  color: #fcfcfc;
+  text-rendering: optimizeLegibility;
+  font-family: "AvenirNext-Regular"
+}
+
+a {
+  color: #eeeeee;
+  text-decoration: none
+}
+
+h1 {
+  font-family: "AvenirNext-Medium";
+  color: #cccccc;
+  font-size: 2.6em;
+  line-height: 1.3em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "AvenirNext-Medium";
+  color: #eeeeee;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em
+}
+
+h3 {
+  font-family: "AvenirNext-Medium";
+  color: #cccccc;
+  font-size: 1.15em;
+  line-height: 1em;
+  margin-bottom: .6em
+}
+
+p {
+  margin-bottom: 1.6em;
+  hyphens: auto
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  background-color: #dedede;
+  margin: -1px auto 1.57143em auto
+}
+
+ul, ol {
+  margin-bottom: 1em
+}
+
+b, strong {
+  font-family: "AvenirNext-Bold"
+}
+
+i, em {
+  font-family: "AvenirNext-Italic"
+}
+
+code {
+  font-family: "Menlo-Regular"
+}
+
+.text-overflow-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.header-wrapper {
+  max-width: 90%;
+  margin: 0px auto;
+  padding: 1.5em 3em
+}
+
+.note-wrapper {
+  max-width: 90%;
+  margin: 0px auto;
+  padding: 1.5em 3em
+}
+
+.image-wrapper {
+  max-width: 90%;
+  margin: 0px auto;
+  padding: 1.5em 3em
+}
+
+.image-wrapper img {
+  width: 100%;
+}
+
+p {
+  margin-bottom: 1.6em
+}
+
+hr {
+  margin-bottom: 0.7em;
+  margin-top: 0.7em
+}
+
+blockquote {
+  display: block;
+  margin-left: -1em;
+  padding-left: 0.8em;
+  border-left: 0.2em solid #e06e73
+}
+
+img {
+  max-width: 100%;
+  height: auto
+}
+
+#nav {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-top: 1px solid #999999;
+}
+
+p.hero {
+  color: #aaaaaa;
+  margin-bottom: 3em;
+}
+
+#nav ul li {
+  display: inline-block;
+  padding: 1em 3em 1em 3em;
+  text-transform: uppercase;
+}
+#nav ul li a {
+  color: #aaaaaa;
+}
+
+#nav ul, #nav ul li {
+  list-style: none;
+  text-align: center;
+}
+
+ul.resume {
+  list-style-type: disc;
+  margin-left: 2em;
+}

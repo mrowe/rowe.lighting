@@ -1,0 +1,25 @@
+version: 0.1
+
+environment_variables:
+  plaintext:
+    AWS_DEFAULT_REGION: "ap-southeast-2"
+    HUGO_VERSION: "0.58.1"
+    HUGO_SHA256: "55392f0a3382aa0e5e86358da8757eed60733deea67b681afb679028299e3927"
+
+phases:
+  install:
+    commands:
+      - curl -Ls https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz
+      - echo "${HUGO_SHA256}  /tmp/hugo.tar.gz" | sha256sum -c -
+      - tar xf /tmp/hugo.tar.gz -C /tmp
+      - mv /tmp/hugo /usr/bin/hugo
+      - rm -rf /tmp/hugo
+
+  build:
+    commands:
+      - hugo --minify --verbose --cleanDestinationDir
+
+  post_build:
+    commands:
+      - aws s3 sync --region=ap-southeast-2 --acl public-read --delete public s3://rowe.lighting/ --cache-control max-age=3600
+      - aws cloudfront create-invalidation --distribution-id ER4RHR3I2NHT2 --paths /index.html /index.xml

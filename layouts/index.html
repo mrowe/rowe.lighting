@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<div class="image-wrapper">
+    {{ range where .Pages "Section" "portfolio" }}
+    <p>this is image block
+      {{ .Title }}
+        {{ with .Params.Gallery }}<a href="{{ . }}">{{ end }}
+          <img src="media/{{ .Params.image }}" />
+        {{ with .Params.gallery }}</a>{{ end }}
+        <span class="caption">
+          {{ with .Params.title }}<em>{{ . }}</em>, {{ end }}
+          {{ with .Params.producer }}p{{ . }}, {{ end }}
+          {{ with .Params.venue }}v {{ . }}, {{ end }}
+          {{ with .Params.date }}d {{ . }}. {{ end }}
+          {{ with .Params.dirtector }}Directed by {{ . }}. {{ end }}
+          Lighting by Michael Rowe.
+        </span>
+      </p>
+    {{ end }}
+  </div>
+
+<div class="note-wrapper">
+    <h2 id="about">About</h2>
+    <p><img src='/images/me.jpg'></p>
+    <p>I have been involved in theatre and stage production since a very early age when I “helped” my father with his
+      community and church lighting projects. In high school I was heavily involved in the then-new purpose built
+      theatre, including helping design and operate the lighting for numerous school productions and external concerts.
+    </p>
+    <p>Having been bitten by the bug, I soon became involved in the amateur theatre scene in Melbourne, and spent many
+      years crewing and designing musicals. I was able to use this experience to find employment on a number of major
+      commercial productions, including The Phantom of the Opera, The New Rocky Horror Show, and 42nd Street for the
+      Australian tours.</p>
+    <p>After a few years break to raise a family, I am now rekindling my love of theatre and lighting.</p>
+  </div>
+
+  <div class="note-wrapper">
+    <h2 id="contact">Contact</h2>
+    <dl>
+      <dd>PO Box 4244</dd>
+      <dd>Briar Hill, VIC 3088</dd>
+      <dd>Australia</dd>
+    </dl>
+    <br>
+    <dl>
+      <dd>Phone: +61 (0) 412 477 661</dd>
+      <dd>Email: <a href="mailto:michael@rowe.lighting">michael@rowe.lighting</a></dd>
+    </dl>
+  </div>
+
+{{ end }}
