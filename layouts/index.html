@@ -1,17 +1,16 @@
 {{ define "main" }}
 
 <div class="image-wrapper">
-    {{ range where .Pages "Section" "portfolio" }}
-    <p>this is image block
-      {{ .Title }}
+    {{ range where .Site.RegularPages "Section" "portfolio" }}
+    <p>
         {{ with .Params.Gallery }}<a href="{{ . }}">{{ end }}
           <img src="media/{{ .Params.image }}" />
         {{ with .Params.gallery }}</a>{{ end }}
         <span class="caption">
           {{ with .Params.title }}<em>{{ . }}</em>, {{ end }}
-          {{ with .Params.producer }}p{{ . }}, {{ end }}
-          {{ with .Params.venue }}v {{ . }}, {{ end }}
-          {{ with .Params.date }}d {{ . }}. {{ end }}
+          {{ with .Params.producer }}{{ . }}, {{ end }}
+          {{ with .Params.venue }}{{ . }}, {{ end }}
+          {{ with .Params.date }}{{ dateFormat "January 2006" . }}. {{ end }}
           {{ with .Params.dirtector }}Directed by {{ . }}. {{ end }}
           Lighting by Michael Rowe.
         </span>
