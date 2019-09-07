@@ -7,11 +7,13 @@
           <img src="media/{{ .Params.image }}" />
         {{ with .Params.gallery }}</a>{{ end }}
         <span class="caption">
-          {{ with .Params.title }}<em>{{ . }}</em>, {{ end }}
-          {{ with .Params.producer }}{{ . }}, {{ end }}
-          {{ with .Params.venue }}{{ . }}, {{ end }}
-          {{ with .Params.date }}{{ dateFormat "January 2006" . }}. {{ end }}
+          {{ with .Params.title }}<strong>{{ . }}</strong>, {{ end }}
+          {{ with .Params.date }}{{ dateFormat "2006" . }}. {{ end }}
           {{ with .Params.dirtector }}Directed by {{ . }}. {{ end }}
+          {{ with .Params.designer }}Designed by {{ . }}. {{ end }}
+          {{ with .Params.costumes }}Costumes by {{ . }}. {{ end }}
+          {{ with .Params.producer }}<em>{{ . }}</em>. {{ end }}
+          {{ with .Params.venue }}{{ . }}. {{ end }}
           Lighting by Michael Rowe.
         </span>
       </p>

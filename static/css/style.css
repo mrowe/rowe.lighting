@@ -148,6 +148,11 @@ code {
   width: 100%;
 }
 
+.caption {
+  font-size: 80%;
+  color: #cccccc
+}
+
 p {
   margin-bottom: 1.6em
 }
