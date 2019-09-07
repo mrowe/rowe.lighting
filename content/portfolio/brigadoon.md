@@ -3,6 +3,7 @@ date = "1995-05-06T09:23:05+11:00"
 title = "Brigadoon"
 banner = "media/brigadoon/brigadoon.jpg"
 image_dir = "static/media/brigadoon/"
+expiryDate = "2006-10-06T09:23:05+11:00"
 +++
 
 Whitehorse Musical Theatre, May 1995, Phoenix Theatre, Burwood

@@ -3,6 +3,7 @@ date = "2017-03-06T09:23:05+11:00"
 title = "Australia Day"
 banner = "media/australia-day/david-belton-2.jpg"
 image_dir = "static/media/australia-day/"
+expiryDate = "2019-08-06T09:23:05+11:00"
 +++
 
 Heidelberg Theatre Company, February 2017
