@@ -1,18 +1,9 @@
-+++
-date = "2015-03-08T09:23:27+11:00"
-title = "When Dad Married Fury"
-banner = "media/when-dad-married-fury/david-belton-1.jpg"
-image_dir = "static/media/when-dad-married-fury/"
-+++
-
-Heidelberg Theatre Company, February 2015
-
- * __Director__: Maureen McInerney
- * __Designer__: Matthew McLaughlin
- * __Lighting__: Michael Rowe
-
-<!--more-->
-
-
-
-_Images (c) 2015 David Belton www.scriptandstage.com and (c) 2015 Michael Rowe; All rights reserved._
+---
+date: 2015-02-08T09:23:27+11:00
+title: When Dad Married Fury
+image: when-dad-married-fury/david-belton-1.jpg
+producer: Heidelberg Theatre Company
+director: Maureen McInerney
+designer: Matthew McLaughlin
+copyright: Images (c) 2015 David Belton www.scriptandstage.com and (c) 2015 Michael Rowe; All rights reserved.
+---
