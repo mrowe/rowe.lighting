@@ -1,0 +1,11 @@
+---
+title: 
+date: 
+image: 
+gallery:
+producer: 
+venue: 
+director: 
+designer: 
+copyright: 
+---
