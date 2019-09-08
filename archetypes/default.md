@@ -1,6 +1,6 @@
 ---
-title: 
-date: 
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
 image: 
 gallery:
 producer: 
