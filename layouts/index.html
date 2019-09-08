@@ -9,7 +9,7 @@
         <span class="caption">
           {{ with .Params.title }}<strong>{{ . }}</strong>, {{ end }}
           {{ with .Params.date }}{{ dateFormat "2006" . }}. {{ end }}
-          {{ with .Params.dirtector }}Directed by {{ . }}. {{ end }}
+          {{ with .Params.director }}Directed by {{ . }}. {{ end }}
           {{ with .Params.designer }}Designed by {{ . }}. {{ end }}
           {{ with .Params.costumes }}Costumes by {{ . }}. {{ end }}
           {{ with .Params.producer }}<em>{{ . }}</em>. {{ end }}
