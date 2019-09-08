@@ -2,6 +2,4 @@ baseurl = "//rowe.lighting/"
 title = "Michael Rowe - Lighting design"
 copyright = "Copyright (c) 1986-2019 Michael Rowe except where noted. All rights reserved."
 languageCode = "en-au"
-
-[params]
-    google_analytics_id = "UA-6154615-9"
+googleAnalytics = "UA-6154615-9"
