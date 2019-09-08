@@ -4,6 +4,6 @@
 
 This is the source for the
 website [rowe.lighting](http://rowe.lighting). It is generated
-statically using [Hugo][] and a custom theme.
+statically using [Hugo][] and a custom (very minimal) theme.
 
 [Hugo]: http://gohugo.io/
