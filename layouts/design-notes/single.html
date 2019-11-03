@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="note-wrapper">
+  <h1 class="design-note">{{ .Title }}</h1>
+  <div class="design-note">
+    {{ .Content }}
+  </div>
+  <div class="sidebar">
+    <ul>
+      {{ range .Params.images }}
+        <li><img src="{{ . }}"/></li>
+      {{ end }}
+    </ul>
+    <span class="caption">{{ .Params.caption | safeHTML }}</span>
+  </div>
+</div>
+{{ end }}

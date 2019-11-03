@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+<body>
+    {{- partial "header.html" . -}}
+    <div id="content">
+        <div id="design-notes" class="note-wrapper">
+            <h2>Design Notes</h2>
+            <ul class="bullet-list">
+                {{ range where .Site.RegularPages "Section" "design-notes" }}
+                <li>
+                    <a href="{{ .Permalink }}">{{ .Title }} ({{.Date.Format "January 2006"}})</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>    
+    {{ template "_internal/google_analytics_async.html" . }}
+</body>
+</html>

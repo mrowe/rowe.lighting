@@ -136,7 +136,7 @@ code {
 .note-wrapper {
   max-width: 90%;
   margin: 0px auto;
-  padding: 1.5em 3em
+  padding: 1.5em 3em;
 }
 
 .image-wrapper {
@@ -202,7 +202,39 @@ p.hero {
   text-align: center;
 }
 
-ul.resume {
+ul.bullet-list {
   list-style-type: disc;
   margin-left: 2em;
+}
+
+.design-note {
+  width: 60%;
+  float: left;
+  padding-bottom: 3em
+}
+h1.design-note {
+  width: 90%;
+  text-align: left;
+  padding-bottom: 1em
+}
+
+.sidebar {
+  width: 30%;
+  float: right;
+  margin-left: 1em;
+  padding-bottom: 4em
+}
+.sidebar ul {
+  list-style: none;
+}
+.sidebar ul li {
+  margin-bottom: 2em;
+}
+
+hr.footer {
+  width: 50%;
+  height: 1px;
+  border: none;
+  clear: both;
+  margin-top: 6em
 }
