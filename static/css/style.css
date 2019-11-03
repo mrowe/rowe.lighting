@@ -238,3 +238,14 @@ hr.footer {
   clear: both;
   margin-top: 6em
 }
+
+@media (max-width: 768px) {
+  .design-note {
+    float: none;
+    width: auto;
+  }
+  .sidebar {
+    float: none;
+    width: auto;
+  }
+}
