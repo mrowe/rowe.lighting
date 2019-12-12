@@ -1,6 +1,6 @@
 FROM golang:latest
 
-COPY config.toml content data layouts static themes /work/
+COPY config.toml content layouts static /work/
 WORKDIR /work
 
 RUN go get -u -v github.com/kardianos/govendor
