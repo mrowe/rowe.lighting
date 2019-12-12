@@ -205,7 +205,14 @@ p.hero {
 ul.bullet-list {
   list-style-type: disc;
   margin-left: 2em;
-  margin-bottom: 0.5em
+}
+
+ul.bullet-list li {
+  margin-bottom: 0.66em
+}
+
+ul.bullet-list li ul li {
+  margin-bottom: 0em
 }
 
 .design-note {
