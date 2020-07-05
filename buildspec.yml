@@ -24,4 +24,4 @@ phases:
   post_build:
     commands:
       - aws s3 sync --region=ap-southeast-2 --acl public-read --delete public s3://rowe.lighting/ --cache-control max-age=3600
-      - aws cloudfront create-invalidation --distribution-id ER4RHR3I2NHT2 --paths /index.html /index.xml
+      - aws cloudfront create-invalidation --distribution-id ER4RHR3I2NHT2 --paths /index.html /index.xml '/*'
