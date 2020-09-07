@@ -60,6 +60,7 @@ body {
   text-rendering: optimizeLegibility;
   font-family: 'Lato', serif;
   font-weight: 300;
+  letter-spacing: 0.05rem;
 }
 
 a {
