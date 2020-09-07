@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 author: "Michael Rowe"
